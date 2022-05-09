@@ -1,0 +1,26 @@
+.container { 
+    display: flex;
+}
+.container div {
+  font-size: 5vw;
+  color: rgb(0, 0, 0);
+  flex: 1;
+}
+
+#leftBox {
+    min-height: 800px;
+    display: flex;
+}
+
+#centerBox {
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#rightBox {
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+}
